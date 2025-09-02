@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Erin Fitzpatric's Portfolio
+
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. This portfolio showcases my professional work as a Senior Software Engineer, featuring my background in startups and enterprise companies, along with real projects and experience highlights.
+
+🌐 **Live Site**: [erinfitzpatric.com](https://erinfitzpatric.com)
+
+## About This Portfolio
+
+This portfolio represents my journey as a Senior Software Engineer with experience across diverse environments - from fast-paced startups like Abre (ed tech) and Pantomath (data observability) to enterprise-scale development at Travelers (Fortune 500). My background also includes leadership experience as a high school band director, which has enhanced my mentorship and team collaboration skills.
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Package Manager**: pnpm
+- **Build Tool**: Turbopack
+- **Deployment**: Vercel
+- **Image Optimization**: Next.js Image with LinkedIn profile integration
+
+## Features
+
+- ✨ Modern, clean design with dark mode support
+- 📱 Fully responsive layout
+- ⚡ Fast loading with Next.js optimization
+- 🎨 Smooth animations and transitions
+- 🔧 Built with modern tooling (Turbopack, pnpm)
+- 🚀 Optimized for deployment on Vercel
+- 📸 LinkedIn profile picture integration
+- 📄 Resume download functionality
+- 🎯 Focus on real projects and professional experience
+
+## Portfolio Sections
+
+- **Hero**: Professional introduction with LinkedIn profile photo and modern stack showcase
+- **About**: Background covering startup experience, enterprise work, and leadership skills
+- **Experience Highlights**: Key metrics, current role, and modern technology stack
+- **Projects**: Featured real applications including Recipe Management App and AOM.gg
+- **Contact**: Professional contact information with direct links
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+```
+
+Then, run the development server:
+
+```bash
 pnpm dev
-# or
-bun dev
+# Development server with Turbopack for fast rebuilds
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── globals.css          # Global styles with Tailwind
+│   ├── layout.tsx           # Root layout component
+│   └── page.tsx             # Main portfolio page
+└── ...
+```
 
-## Learn More
+## Build & Deploy
 
-To learn more about Next.js, take a look at the following resources:
+Build for production:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The portfolio is configured for easy deployment on Vercel:
 
-## Deploy on Vercel
+1. Push to GitHub
+2. Connect repository to Vercel
+3. Configure custom domain (erinfitzpatric.com)
+4. Deploy automatically on every push
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: efitzpatric@gmail.com
+- **LinkedIn**: [linkedin.com/in/efitzpatric](https://linkedin.com/in/efitzpatric)
+- **GitHub**: [github.com/erin-fitzpatric](https://github.com/erin-fitzpatric)
+
+## Key Projects Featured
+
+### Recipe Management App
+- **Live Demo**: [recipe.erinfitzpatric.com/dashboard](https://recipe.erinfitzpatric.com/dashboard)
+- **GitHub**: [github.com/erin-fitzpatric/next-my-home-recipe](https://github.com/erin-fitzpatric/next-my-home-recipe)
+- **Tech Stack**: React, Node.js, Database management
+- **Features**: Full-stack web application with user authentication and dashboard
+
+### AOM.gg
+- **Live Site**: [aom.gg](https://www.aom.gg/)
+- **GitHub**: [github.com/erin-fitzpatric/next-aom-gg](https://github.com/erin-fitzpatric/next-aom-gg)
+- **Tech Stack**: Next.js, TypeScript, Gaming API integration
+- **Features**: Age of Empires community platform with leaderboards and player statistics
+
+## Modern Stack Highlighted
+
+- **Frontend**: React, Next.js, TypeScript
+- **Backend**: Node.js, PostgreSQL, MongoDB
+- **Cloud**: AWS, Vercel
+- **AI Tools**: GitHub Copilot, Cursor AI
